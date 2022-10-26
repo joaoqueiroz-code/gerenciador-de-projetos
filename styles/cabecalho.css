@@ -1,0 +1,14 @@
+@import url(custom-global.css);
+.cabecalho {
+    width: 100%;
+    position: fixed;
+    height: var(--cabecalho-size);
+    background: var(--cor-secundaria);
+    top: 0;
+    box-shadow: 1px 1px 7px #17222887;
+    padding: 0 1em;
+    border-bottom: 1px solid #17222887;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

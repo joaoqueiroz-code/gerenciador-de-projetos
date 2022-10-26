@@ -1,0 +1,31 @@
+:root {
+    --border-color: #17222887;
+    --cabecalho-size: 4em;
+
+    --cor-principal: #111518;
+    --cor-secundaria: #0e1418;
+    --cor-terciaria: #1d2327;
+
+    --cor-fonts: #fff;
+    --font-principal:'Montserrat', sans-serif;
+
+
+
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background: var(--cor-principal) !important;
+    font-family: var(--font-principal) !important;
+}
+
+label, p, h1, h2, h3 {
+    color: var(--cor-fonts);
+}
+
+.note-editable label, .note-editable p, .note-editable h1, .note-editable h2, .note-editable h3{
+    color: #222;
+}

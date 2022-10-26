@@ -1,0 +1,15 @@
+@import url(custom-global.css);
+.container-principal {
+    width: 960px;
+    border-radius: 1em;
+    padding: 1em;
+    background: var(--cor-terciaria);
+    margin: 0 auto;
+    margin-top: calc(var(--cabecalho-size) + 2em);
+    height: 95vh;
+    border: 1px solid var(--border-color);
+}
+
+.container-item {
+    margin: 1em;
+}
